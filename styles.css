@@ -1,0 +1,21 @@
+html, body {
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.container .row {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+}
+.container .row .col {}
+
+.container .row .col img {
+    width: 45vw;
+}
