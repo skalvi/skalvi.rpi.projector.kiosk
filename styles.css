@@ -14,8 +14,10 @@ html, body {
     display: flex;
     justify-content: space-between;
 }
-.container .row .col {}
+.container .row .col {
+    padding: 2em;
+}
 
 .container .row .col img {
-    width: 45vw;
+    width: 40vw;
 }
